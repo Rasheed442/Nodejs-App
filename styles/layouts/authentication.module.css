@@ -1,0 +1,26 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    transition: 0.5s;
+}
+.container:hover{
+        box-shadow: 0px 10px 10px 10px gainsboro;
+}
+.children{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

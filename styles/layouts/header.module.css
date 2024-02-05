@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.header h2{
+    font-style: italic;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header p{
+    font-size: 21px;
+    font-style: italic;
+        font-weight: 500;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.navlinks span{
+    color: black;
+        font-weight: 400;
+        padding: 20px;
+        font-size: 17px;
+        transition: 0.5s;
+}
+.navlinks span:hover{
+    border-bottom: 3px solid purple;
+}
+.authnone{
+    display: none;
+}
+.auth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    transition: 0.5s;
+    right: 120px;
+    top: 70px;
+    box-shadow:  1px 1px 1px 1px  gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    }
+.auth span{
+    color: black;
+}
+.cart1{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.cart1 p{
+   position: absolute;
+   right: 0;
+   bottom: 30px;
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20px;
+   font-size: 10px;
+}
